@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC537F942807088A003C089D /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F932807088A003C089D /* ConfigurationManager.swift */; };
+		CC537F952807088A003C089D /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F932807088A003C089D /* ConfigurationManager.swift */; };
+		CC537F9828070CB6003C089D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9728070CB6003C089D /* NetworkError.swift */; };
+		CC537F9928070CB6003C089D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9728070CB6003C089D /* NetworkError.swift */; };
+		CC537F9B28070CD3003C089D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9A28070CD3003C089D /* NetworkController.swift */; };
+		CC537F9C28070CD3003C089D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9A28070CD3003C089D /* NetworkController.swift */; };
+		CC537F9E28070D0F003C089D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9D28070D0F003C089D /* NetworkRequest.swift */; };
+		CC537F9F28070D0F003C089D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537F9D28070D0F003C089D /* NetworkRequest.swift */; };
+		CC537FA1280711F5003C089D /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537FA0280711F5003C089D /* Codable+Extensions.swift */; };
+		CC537FA2280711F5003C089D /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537FA0280711F5003C089D /* Codable+Extensions.swift */; };
+		CC7654D227E3730400384E59 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654D127E3730400384E59 /* Tests_iOS.swift */; };
+		CC7654D427E3730400384E59 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654D327E3730400384E59 /* Tests_iOSLaunchTests.swift */; };
+		CC7654DE27E3730400384E59 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654DD27E3730400384E59 /* Tests_macOS.swift */; };
+		CC7654E027E3730400384E59 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654DF27E3730400384E59 /* Tests_macOSLaunchTests.swift */; };
+		CC7654E127E3730400384E59 /* InterviewNoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654B927E3730400384E59 /* InterviewNoomApp.swift */; };
+		CC7654E227E3730400384E59 /* InterviewNoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654B927E3730400384E59 /* InterviewNoomApp.swift */; };
+		CC7654E327E3730400384E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654BA27E3730400384E59 /* ContentView.swift */; };
+		CC7654E427E3730400384E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7654BA27E3730400384E59 /* ContentView.swift */; };
+		CC7654E527E3730400384E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7654BB27E3730400384E59 /* Assets.xcassets */; };
+		CC7654E627E3730400384E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7654BB27E3730400384E59 /* Assets.xcassets */; };
+		CCC38D0627FF20C700C6B65E /* NoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0527FF20C700C6B65E /* NoomCell.swift */; };
+		CCC38D0727FF20C700C6B65E /* NoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0527FF20C700C6B65E /* NoomCell.swift */; };
+		CCC38D0927FF215600C6B65E /* NoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0827FF215600C6B65E /* NoomViewModel.swift */; };
+		CCC38D0A27FF215600C6B65E /* NoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0827FF215600C6B65E /* NoomViewModel.swift */; };
+		CCC38D0F27FF246100C6B65E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0E27FF246100C6B65E /* NetworkManager.swift */; };
+		CCC38D1027FF246100C6B65E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D0E27FF246100C6B65E /* NetworkManager.swift */; };
+		CCC38D1227FF296200C6B65E /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1127FF296200C6B65E /* DataModels.swift */; };
+		CCC38D1327FF296200C6B65E /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1127FF296200C6B65E /* DataModels.swift */; };
+		CCC38D1827FF308100C6B65E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1727FF308100C6B65E /* DetailsView.swift */; };
+		CCC38D1927FF308100C6B65E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1727FF308100C6B65E /* DetailsView.swift */; };
+		CCC38D1B27FF34E600C6B65E /* NoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1A27FF34E600C6B65E /* NoomList.swift */; };
+		CCC38D1C27FF34E600C6B65E /* NoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC38D1A27FF34E600C6B65E /* NoomList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7654CE27E3730400384E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7654B427E3730400384E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7654BF27E3730400384E59;
+			remoteInfo = "InterviewNoom (iOS)";
+		};
+		CC7654DA27E3730400384E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7654B427E3730400384E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7654C527E3730400384E59;
+			remoteInfo = "InterviewNoom (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC537F932807088A003C089D /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		CC537F9728070CB6003C089D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CC537F9A28070CD3003C089D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		CC537F9D28070D0F003C089D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		CC537FA0280711F5003C089D /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		CC7654B927E3730400384E59 /* InterviewNoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewNoomApp.swift; sourceTree = "<group>"; };
+		CC7654BA27E3730400384E59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC7654BB27E3730400384E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7654C027E3730400384E59 /* InterviewNoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewNoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7654C627E3730400384E59 /* InterviewNoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewNoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7654C827E3730400384E59 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CC7654CD27E3730400384E59 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7654D127E3730400384E59 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		CC7654D327E3730400384E59 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		CC7654D927E3730400384E59 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7654DD27E3730400384E59 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		CC7654DF27E3730400384E59 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CCC38D0527FF20C700C6B65E /* NoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomCell.swift; sourceTree = "<group>"; };
+		CCC38D0827FF215600C6B65E /* NoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomViewModel.swift; sourceTree = "<group>"; };
+		CCC38D0E27FF246100C6B65E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CCC38D1127FF296200C6B65E /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		CCC38D1727FF308100C6B65E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CCC38D1A27FF34E600C6B65E /* NoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7654BD27E3730400384E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654C327E3730400384E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654CA27E3730400384E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654D627E3730400384E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC537F9628070CA9003C089D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CCC38D0E27FF246100C6B65E /* NetworkManager.swift */,
+				CC537F9728070CB6003C089D /* NetworkError.swift */,
+				CC537F9A28070CD3003C089D /* NetworkController.swift */,
+				CC537F9D28070D0F003C089D /* NetworkRequest.swift */,
+				CC537FA0280711F5003C089D /* Codable+Extensions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CC537FA328071D63003C089D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CC537F932807088A003C089D /* ConfigurationManager.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		CC537FA428071D71003C089D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCC38D0827FF215600C6B65E /* NoomViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC537FA528071D7B003C089D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC7654BA27E3730400384E59 /* ContentView.swift */,
+				CCC38D0527FF20C700C6B65E /* NoomCell.swift */,
+				CCC38D1727FF308100C6B65E /* DetailsView.swift */,
+				CCC38D1A27FF34E600C6B65E /* NoomList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC537FA628071D8C003C089D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCC38D1127FF296200C6B65E /* DataModels.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		CC7654B327E3730400384E59 = {
+			isa = PBXGroup;
+			children = (
+				CC7654B827E3730400384E59 /* Shared */,
+				CC7654C727E3730400384E59 /* macOS */,
+				CC7654D027E3730400384E59 /* Tests iOS */,
+				CC7654DC27E3730400384E59 /* Tests macOS */,
+				CC7654C127E3730400384E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7654B827E3730400384E59 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CC537FA628071D8C003C089D /* DataModels */,
+				CC537FA528071D7B003C089D /* Views */,
+				CC537FA428071D71003C089D /* ViewModels */,
+				CC537F9628070CA9003C089D /* Networking */,
+				CC7654B927E3730400384E59 /* InterviewNoomApp.swift */,
+				CC7654BB27E3730400384E59 /* Assets.xcassets */,
+				CC537FA328071D63003C089D /* Configuration */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CC7654C127E3730400384E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7654C027E3730400384E59 /* InterviewNoom.app */,
+				CC7654C627E3730400384E59 /* InterviewNoom.app */,
+				CC7654CD27E3730400384E59 /* Tests iOS.xctest */,
+				CC7654D927E3730400384E59 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7654C727E3730400384E59 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC7654C827E3730400384E59 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CC7654D027E3730400384E59 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC7654D127E3730400384E59 /* Tests_iOS.swift */,
+				CC7654D327E3730400384E59 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		CC7654DC27E3730400384E59 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC7654DD27E3730400384E59 /* Tests_macOS.swift */,
+				CC7654DF27E3730400384E59 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7654BF27E3730400384E59 /* InterviewNoom (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7654E927E3730400384E59 /* Build configuration list for PBXNativeTarget "InterviewNoom (iOS)" */;
+			buildPhases = (
+				CC7654BC27E3730400384E59 /* Sources */,
+				CC7654BD27E3730400384E59 /* Frameworks */,
+				CC7654BE27E3730400384E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InterviewNoom (iOS)";
+			productName = "InterviewNoom (iOS)";
+			productReference = CC7654C027E3730400384E59 /* InterviewNoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7654C527E3730400384E59 /* InterviewNoom (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7654EC27E3730400384E59 /* Build configuration list for PBXNativeTarget "InterviewNoom (macOS)" */;
+			buildPhases = (
+				CC7654C227E3730400384E59 /* Sources */,
+				CC7654C327E3730400384E59 /* Frameworks */,
+				CC7654C427E3730400384E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InterviewNoom (macOS)";
+			productName = "InterviewNoom (macOS)";
+			productReference = CC7654C627E3730400384E59 /* InterviewNoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7654CC27E3730400384E59 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7654EF27E3730400384E59 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				CC7654C927E3730400384E59 /* Sources */,
+				CC7654CA27E3730400384E59 /* Frameworks */,
+				CC7654CB27E3730400384E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7654CF27E3730400384E59 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = CC7654CD27E3730400384E59 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC7654D827E3730400384E59 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7654F227E3730400384E59 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				CC7654D527E3730400384E59 /* Sources */,
+				CC7654D627E3730400384E59 /* Frameworks */,
+				CC7654D727E3730400384E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7654DB27E3730400384E59 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = CC7654D927E3730400384E59 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7654B427E3730400384E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CC7654BF27E3730400384E59 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CC7654C527E3730400384E59 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CC7654CC27E3730400384E59 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CC7654BF27E3730400384E59;
+					};
+					CC7654D827E3730400384E59 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CC7654C527E3730400384E59;
+					};
+				};
+			};
+			buildConfigurationList = CC7654B727E3730400384E59 /* Build configuration list for PBXProject "InterviewNoom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7654B327E3730400384E59;
+			productRefGroup = CC7654C127E3730400384E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7654BF27E3730400384E59 /* InterviewNoom (iOS) */,
+				CC7654C527E3730400384E59 /* InterviewNoom (macOS) */,
+				CC7654CC27E3730400384E59 /* Tests iOS */,
+				CC7654D827E3730400384E59 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7654BE27E3730400384E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7654E527E3730400384E59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654C427E3730400384E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7654E627E3730400384E59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654CB27E3730400384E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654D727E3730400384E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7654BC27E3730400384E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC537F9B28070CD3003C089D /* NetworkController.swift in Sources */,
+				CCC38D0F27FF246100C6B65E /* NetworkManager.swift in Sources */,
+				CCC38D0627FF20C700C6B65E /* NoomCell.swift in Sources */,
+				CC537FA1280711F5003C089D /* Codable+Extensions.swift in Sources */,
+				CC537F942807088A003C089D /* ConfigurationManager.swift in Sources */,
+				CC7654E327E3730400384E59 /* ContentView.swift in Sources */,
+				CC7654E127E3730400384E59 /* InterviewNoomApp.swift in Sources */,
+				CCC38D1227FF296200C6B65E /* DataModels.swift in Sources */,
+				CCC38D1827FF308100C6B65E /* DetailsView.swift in Sources */,
+				CCC38D1B27FF34E600C6B65E /* NoomList.swift in Sources */,
+				CCC38D0927FF215600C6B65E /* NoomViewModel.swift in Sources */,
+				CC537F9828070CB6003C089D /* NetworkError.swift in Sources */,
+				CC537F9E28070D0F003C089D /* NetworkRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654C227E3730400384E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC537F9C28070CD3003C089D /* NetworkController.swift in Sources */,
+				CCC38D1027FF246100C6B65E /* NetworkManager.swift in Sources */,
+				CCC38D0727FF20C700C6B65E /* NoomCell.swift in Sources */,
+				CC537FA2280711F5003C089D /* Codable+Extensions.swift in Sources */,
+				CC537F952807088A003C089D /* ConfigurationManager.swift in Sources */,
+				CC7654E427E3730400384E59 /* ContentView.swift in Sources */,
+				CC7654E227E3730400384E59 /* InterviewNoomApp.swift in Sources */,
+				CCC38D1327FF296200C6B65E /* DataModels.swift in Sources */,
+				CCC38D1927FF308100C6B65E /* DetailsView.swift in Sources */,
+				CCC38D1C27FF34E600C6B65E /* NoomList.swift in Sources */,
+				CCC38D0A27FF215600C6B65E /* NoomViewModel.swift in Sources */,
+				CC537F9928070CB6003C089D /* NetworkError.swift in Sources */,
+				CC537F9F28070D0F003C089D /* NetworkRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654C927E3730400384E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7654D427E3730400384E59 /* Tests_iOSLaunchTests.swift in Sources */,
+				CC7654D227E3730400384E59 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7654D527E3730400384E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7654E027E3730400384E59 /* Tests_macOSLaunchTests.swift in Sources */,
+				CC7654DE27E3730400384E59 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7654CF27E3730400384E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7654BF27E3730400384E59 /* InterviewNoom (iOS) */;
+			targetProxy = CC7654CE27E3730400384E59 /* PBXContainerItemProxy */;
+		};
+		CC7654DB27E3730400384E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7654C527E3730400384E59 /* InterviewNoom (macOS) */;
+			targetProxy = CC7654DA27E3730400384E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC7654E727E3730400384E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC7654E827E3730400384E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CC7654EA27E3730400384E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dazigna.InterviewNoom;
+				PRODUCT_NAME = InterviewNoom;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7654EB27E3730400384E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dazigna.InterviewNoom;
+				PRODUCT_NAME = InterviewNoom;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7654ED27E3730400384E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dazigna.InterviewNoom;
+				PRODUCT_NAME = InterviewNoom;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC7654EE27E3730400384E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dazigna.InterviewNoom;
+				PRODUCT_NAME = InterviewNoom;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC7654F027E3730400384E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dazigna.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "InterviewNoom (iOS)";
+			};
+			name = Debug;
+		};
+		CC7654F127E3730400384E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dazigna.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "InterviewNoom (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7654F327E3730400384E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dazigna.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "InterviewNoom (macOS)";
+			};
+			name = Debug;
+		};
+		CC7654F427E3730400384E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59N86RC43L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dazigna.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "InterviewNoom (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7654B727E3730400384E59 /* Build configuration list for PBXProject "InterviewNoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7654E727E3730400384E59 /* Debug */,
+				CC7654E827E3730400384E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7654E927E3730400384E59 /* Build configuration list for PBXNativeTarget "InterviewNoom (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7654EA27E3730400384E59 /* Debug */,
+				CC7654EB27E3730400384E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7654EC27E3730400384E59 /* Build configuration list for PBXNativeTarget "InterviewNoom (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7654ED27E3730400384E59 /* Debug */,
+				CC7654EE27E3730400384E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7654EF27E3730400384E59 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7654F027E3730400384E59 /* Debug */,
+				CC7654F127E3730400384E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7654F227E3730400384E59 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7654F327E3730400384E59 /* Debug */,
+				CC7654F427E3730400384E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7654B427E3730400384E59 /* Project object */;
+}
